@@ -12,8 +12,7 @@ if(!file.exists("data")) {
 fileurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileurl,destfile = "./data/rundata.zip")
 unzip("./data/rundata.zip") # unzips to the home dir
-# C:\Users\lorit\Documents\DataScience\UCI HAR Dataset\test
-# C:\Users\lorit\Documents\DataScience\UCI HAR Dataset\train
+
 fileurl <- "http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.names"
 download.file(fileurl,destfile = "./data/rundata.names")
 
